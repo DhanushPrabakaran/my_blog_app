@@ -4,20 +4,22 @@ import Icon from "@/public/download.png";
 import Image from "next/image";
 import Link from "next/link";
 import bar from "@public/bar.svg"
-
+import cancel from '@public/cancel.svg'
 
 const Header = () => {
   const [navBar, setNavBar] = useState(false);
-  
+  const [navIcon,setNavIcon] = useState(false);
   return (
-    <div className=" relative col-span-4 bg-black bg-opacity-20 flex  justify-between items-center h-24 md:rounded-md">
+    <div className=" relative col-span-4 bg-black bg-opacity-60 flex justify-between items-center h-24 md:rounded-md">
       <Image src={Icon} className="w-[20vh] h-fit " alt="hello" />
-      <div className="text-2xl font-extrabold font-mono  ">Blogs</div>
+
       <div
-      onClick={()=>{setNavBar(!navBar)}}>
+      onClick={()=>{setNavBar(!navBar)
+      setNavIcon(!navIcon)}}>
       <Image
-      src={bar}
-      className=" w-12 " 
+
+      src={navIcon? cancel :bar}
+      className="transition-all transform ease-in-out delay-1000 w-8 mr-2" 
       alt="hello"
       />
       </div>
@@ -35,15 +37,7 @@ const Header = () => {
         <Link href={"/post"} className="m-2 text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer  z-10  ">
           link1
         </Link>
-        {/* <Link href={"/"} className="m-2  text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer">
-          link2
-        </Link>
-        <Link href={"/"} className="m-2  text-end p-5 hover:bg-slate-500 rounded-md">
-          link3
-        </Link>
-        <Link href={"/post"} className="m-2  text-end p-5 hover:bg-slate-500 rounded-md">
-          link4
-        </Link> */}
+        
       </div>
     </div>
   );

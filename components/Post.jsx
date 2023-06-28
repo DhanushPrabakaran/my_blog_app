@@ -1,19 +1,31 @@
-import React from 'react'
-
+import clock from "@public/clock.svg";
+import Image from "next/image";
 const Post = () => {
   return (
-    <div
-    className=' bg-slate-300 bg-opacity-40 rounded-md m-4 p-4' >
-        <div className='font-bold text-3xl'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ullam?
-        </div>
+    <div className=" bg-slate-300 bg-opacity-40 rounded-md m-4 p-4 flex flex-col items-center">
+      <div className="font-bold text-3xl text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ullam?
+      </div>
+      <div className="flex mt-4 mb-4 ">
         <div
-        className=' text-justify p-4'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio quis et tempora non molestiae nobis sed ea tempore ullam voluptatum, nulla iste reprehenderit numquam omnis dolor placeat officia at.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error officiis accusantium veniam temporibus eveniet ad architecto consequatur at veritatis repudiandae! Quam, vel autem. Maxime eveniet dignissimos voluptate quasi, accusamus laboriosam, neque ratione odio cumque veritatis eligendi, rem necessitatibus sit laudantium! Magnam nemo cumque perferendis illum laboriosam id quo in. Rerum molestias perferendis esse laborum et, quis alias maxime vero distinctio nam deleniti minima. Cupiditate, quae fuga? Iusto placeat dicta sit, magni culpa quisquam voluptatem perspiciatis et nulla quae soluta a nihil repudiandae numquam impedit, mollitia ducimus ipsum dolores vitae debitis! Possimus, voluptas tempora cum ullam reiciendis deserunt nulla aut dolorum ratione placeat, nobis recusandae vero quas nostrum illo necessitatibus vitae est beatae veniam obcaecati! Maxime corrupti, temporibus aliquam accusantium accusamus labore harum et nisi blanditiis ratione ipsa consectetur necessitatibus sequi magnam omnis id ab odio? Accusantium sed et, labore, alias possimus quo officiis nihil sapiente laboriosam aperiam id voluptas, voluptatibus dicta quibusdam numquam ullam culpa amet ratione vel libero sequi eaque commodi dolorum? Saepe possimus laborum enim rerum ducimus voluptas eius omnis, accusantium provident atque placeat laudantium, dicta corrupti! Laboriosam, eaque provident. Ullam accusantium mollitia, sint perspiciatis expedita voluptate distinctio quo aliquid vel iste officia dolore exercitationem quod neque aspernatur cumque impedit quibusdam reprehenderit eaque enim laudantium voluptatum temporibus? Totam temporibus quasi quo, tenetur qui maxime incidunt earum dolores delectus enim aliquid explicabo quidem, similique animi odio molestias quos commodi unde! Eligendi repudiandae, at sapiente voluptates natus sunt accusantium veritatis, velit ut architecto officia quia officiis iure magni consectetur atque cum asperiores sint numquam veniam minus omnis aliquam! Placeat mollitia sunt quo, beatae voluptate animi quasi inventore ad temporibus ratione distinctio voluptatibus quam rem ea asperiores soluta ipsam? Dolores, rem recusandae. Mollitia ab nam minima nesciunt veritatis illum saepe nostrum, quasi impedit similique commodi atque consectetur consequatur placeat quae? Omnis eveniet incidunt m
+        className="flex mr-5">
+        <Image src={clock} width={30} className="mr-1" />
+        <div className="text-center">18/04/2004</div>
         </div>
+        <div>
+          <div>
+            Author : Ram
+          </div>
+        </div>
+      </div>
+      <pre className="whitespace-pre-line text-center">
+        heoooooooooooooodfbdnsrsjyjtumumuuuuarwnnnnnnnnnnnnnetw 1.2oyo
+        ascgiculuwgaly
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quo iure obcaecati quod ad atque harum sed consequuntur, ipsam aperiam corporis enim voluptatem, culpa sunt quam. Nam alias, ut amet praesentium ipsum reiciendis architecto? A eius corrupti ducimus rem qui saepe at? Ullam eos debitis adipisci, similique optio vitae incidunt perferendis commodi hic neque qui perspiciatis eaque deleniti, quos maiores id odit recusandae! Architecto amet quae numquam maiores, dignissimos nisi nobis! Provident, esse. Architecto aut magni vero iure eius iste placeat sed, explicabo eaque ad sit facere assumenda dolores id quo? Accusantium non alias earum fugit, optio nisi voluptatem repellat error, temporibus, quo minus repellendus unde? Cum, repellat dicta quo dolor ipsum tempore maiores numquam neque reiciendis at unde ad velit soluta non doloremque deleniti sequi. Laudantium dolorem delectus, facilis distinctio eius necessitatibus nesciunt fugiat fuga quibusdam voluptatibus aliquam at maiores pariatur voluptas impedit recusandae molestiae iure ex. Quam alias voluptas distinctio dolorem molestias dicta esse totam id incidunt vel, tenetur accusantium amet ratione maxime error omnis voluptatibus fuga reprehenderit atque quasi neque necessitatibus nostrum ad? Similique dolor eum doloremque ea quae labore eius dolores tempora numquam, distinctio, fuga fugiat veritatis facere quis amet, necessitatibus nam adipisci qui hic vero!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos magnam ullam ab voluptates veritatis minima sequi similique cumque, exercitationem ipsa veniam reiciendis, nisi asperiores laudantium quis non, iusto odio accusamus alias numquam distinctio nihil? Aperiam, vel quos autem, inventore atque obcaecati velit eius quasi iste delectus laboriosam dolores illo exercitationem, quibusdam molestias nulla ipsam perspiciatis doloribus aliquid quis cum quam quisquam voluptas! Laudantium recusandae omnis aliquam soluta doloremque culpa quos dolores reprehenderit ipsa totam dolor, saepe tenetur porro, rerum voluptate! Nam corrupti tenetur rerum maiores! Architecto consequuntur modi libero autem fuga maxime dolore aliquam distinctio incidunt et fugiat nobis recusandae, deleniti assumenda voluptatum. Tenetur corporis id alias fugit placeat, consectetur repudiandae eius explicabo incidunt aliquid ullam nesciunt doloribus, animi soluta impedit sit provident repellat labore at molestias, nulla dicta dolorem dolor. Quas assumenda corporis, quo consequuntur natus recusandae iure. Voluptatum quae, cum consequatur minus voluptatem omnis eos voluptas. Quisquam pariatur doloribus aperiam exercitationem laborum impedit hic similique? Delectus nostrum cum cupiditate porro eum eligendi ipsam dolorem maxime laborum ea excepturi reiciendis tempora, a, voluptatum magni qui vero doloremque praesentium obcaecati quo, repudiandae ipsa id reprehenderit illum. Impedit animi, distinctio consectetur assumenda iste, qui expedita, mollitia officia molestiae modi culpa?
+      </pre>
     </div>
-  )
-}
+  );
+};
 
-export default Post
+export default Post;
