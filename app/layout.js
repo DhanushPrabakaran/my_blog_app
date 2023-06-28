@@ -1,6 +1,6 @@
+
 import "./globals.css";
 import { Inter } from "next/font/google";
-
 
 export const metadata = {
   title: "Create Next App",
@@ -8,9 +8,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
+  return (//bg-gradient-to-r from-slate-50 to-blue-300
     <html lang="en">
-      <body className="bg-gradient-to-r from-slate-50 to-blue-300" suppressHydrationWarning={true}>
+      <body className=" bg-scroll " suppressHydrationWarning={true}>
         {children}
       </body>
     </html>

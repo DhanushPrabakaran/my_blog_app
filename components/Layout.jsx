@@ -3,9 +3,10 @@ import React from "react";
 
 const Layout = ({ children }) => {
   return (
-    <div className="grid grid-row-2 h-screen bg-gradient-to-r from-slate-50 to-slate-600 w-screen grid-flow-col gap-4 scro">
+    <div className="grid grid-row-2 h-screen  w-screen grid-flow-col gap-4 ">
       {children}
     </div>
+    //bg-gradient-to-r from-slate-50 to-slate-600
   );
 };
 
