@@ -17,13 +17,13 @@ const Header = () => {
       onClick={()=>{setNavBar(!navBar)
       setNavIcon(!navIcon)}}>
       <Image
-
+      
       src={navIcon? cancel :bar}
-      className="transition-all transform ease-in-out delay-1000 w-8 mr-4 " 
+      className=" transition-transform duration-500 ease-linear w-8 mr-4 hover:rotate-180" 
       alt="hello"
       />
       </div>
-      <div id='list' className={` ${navBar? 'flex':'hidden'} items-stretch  text-white  absolute  text-lg font-bold font-mono p-5 flex-col right-0  top-[12vh] w-[400px] bg-black bg-opacity-20 rounded-sm `}>
+      <div id='list' className={` ${navBar? 'flex':'hidden'} items-stretch  text-white  absolute  text-lg font-bold font-mono p-5 flex-col right-0  top-[12vh] w-[400px] bg-black bg-opacity-20 rounded-sm transition-all delay-700 ease-linear`}>
        
         <Link href={"/post"} className="m-2 text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer z-10  ">
           link1
@@ -34,8 +34,8 @@ const Header = () => {
         <Link href={"/post"} className="m-2 text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer  z-10  ">
           link1
         </Link>
-        <Link href={"/post"} className="m-2 text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer  z-10  ">
-          link1
+        <Link href={"/"} className="m-2 text-end p-5 hover:bg-slate-500 rounded-md cursor-pointer  z-10  ">
+          back
         </Link>
         
       </div>

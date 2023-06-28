@@ -8,7 +8,7 @@ const page = () => {
       <div className=" grid grid-cols-4 gap-1 w-screen md:w-[98vw]">
         <Header />
         <div className="h-[75vh] col-span-4 justify-center  flex  m-3">
-          <div className="h-[75vh]   bg-white overflow-hidden overflow-y-scroll bg-opacity-0  w-[80vw] ">
+          <div className="h-[75vh]   bg-white overflow-hidden overflow-y-scroll bg-opacity-0  w-[90vw] ">
             
             <Post />
             

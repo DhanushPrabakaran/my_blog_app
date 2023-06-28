@@ -2,7 +2,7 @@ import clock from "@public/clock.svg";
 import Image from "next/image";
 const Post = () => {
   return (
-    <div className=" bg-slate-300 bg-opacity-40 rounded-md m-4 p-4 flex flex-col items-center">
+    <div className=" bg-slate-300 bg-opacity-80 rounded-md  p-4 flex flex-col items-center  ">
       <div className="font-bold font-serif text-4xl text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ullam?
       </div>
