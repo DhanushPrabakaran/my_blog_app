@@ -9,7 +9,7 @@ const Post = () => {
       <div className="flex mt-4 mb-4 ">
         <div className="flex mr-5">
           <Image src={clock} width={30} className="mr-1" />
-          <div className="text-center">18/04/2004</div>
+          <div className="text-center"> 04/2004</div>
         </div>
         <div>
           <div>Author : Ram</div>

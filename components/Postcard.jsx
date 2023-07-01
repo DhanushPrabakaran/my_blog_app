@@ -1,10 +1,13 @@
+"use client"
 import React from "react";
 import Image from "next/image";
-import wallpaper from "@/public/download.png";
+import wallpaper from "@/public/background.jpg";
+import Link from "next/link";
 const Postcard = () => {
+  
   return (
-    <div className="m-1 flex flex-col  items-center  shadow-md rounded-lg bg-white bg-opacity-50 ">
-      {/* <Image src={wallpaper} width={500} className="rounded m-2" alt="hello" /> */}
+    <div className="m-1 flex flex-col  items-center  shadow-md rounded-lg bg-slate-400 bg-opacity-30 ">
+      <Image src={wallpaper}  className=" " alt="hello" />
       <div className="text-2xl font-extrabold first-letter:uppercase  text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing
       </div>
@@ -15,10 +18,12 @@ const Postcard = () => {
         blanditiis velit rerum!
       </div>
       {/* <div className=" relative flex justify-start w-full"> */}
+      <Link href={"/post"}>
         <button className=" text-center align-middle justify-center m-2  shadow-xl font-bold border-4 w-fit h-10  border-blue-500 rounded-xl bg-blue-500 ease-linear	duration-200 items-center flex p-2">
           Read more...
         </button>
-  {/* </div> */}
+      </Link>
+      {/* </div> */}
     </div>
   );
 };
