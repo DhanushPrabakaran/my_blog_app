@@ -1,17 +1,20 @@
 "use client"
 import React from "react";
-import Image from "next/image";
-import wallpaper from "@/public/background.jpg";
 import Link from "next/link";
-const Postcard = () => {
+
+
+const Postcard = (props) => {
+  
   
   return (
-    <div className="m-1 flex flex-col  items-center  shadow-md rounded-lg bg-slate-400 bg-opacity-30 ">
-      <Image src={wallpaper}  className=" " alt="hello" />
+    <div className="m-1 flex flex-col  items-center  shadow-md rounded-lg bg-slate-400 bg-opacity-30 w-[400px] h-[400px]">
+      
       <div className="text-2xl font-extrabold first-letter:uppercase  text-center">
+      {/* {props.data.title} */}
         Lorem ipsum dolor sit amet consectetur adipisicing
       </div>
       <div className=" text-justify p-3">
+      {/* {props.data.description} */}
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
         dolorum architecto quam quaerat? Suscipit assumenda non praesentium odio
         dolor expedita architecto perferendis! Vel dolorem quam inventore quidem
